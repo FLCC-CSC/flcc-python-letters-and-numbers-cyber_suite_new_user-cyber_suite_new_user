@@ -1,8 +1,8 @@
 # FILE NAME: cyber_suite_new_user.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: James Hotchkiss
+# DATE: 02/26/2025
+# BRIEF DESCRIPTION:  cyber suite
 
 
 
@@ -21,6 +21,15 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+user_name = input('Provide your name:')
+user_id = input('Provide a unique ID:')
+password = input('Provide a password:')
+
+def safeword(password):
+    return 'x' * len(password)
+
+print(f'Hello, {user_name}. Your ID is {user_id}.')
+print(f'PASSWORD:\n {safeword(password)}')
 
 
 
@@ -80,8 +89,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 '''
 1. This project has a bit of a speed bump (converting the password to XXXXs). What was your thought process?
 
-
+i had to ask for help
 
 
 
 '''
+
